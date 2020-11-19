@@ -1,9 +1,12 @@
 header
 {
     height: 320px;
+    width: 10000px;
     background-image: linear-gradient(125deg, #155899, #159957);
     text-align: center;
     font-size: 40pt;
     color: white;
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: table-cell;
+    vertical-align: middle;
 }
