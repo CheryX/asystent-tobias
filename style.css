@@ -116,3 +116,46 @@ footer
     display: table-cell;
     vertical-align: middle;
 }
+#button2
+{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    display: inline-block;
+    color: rgba(126, 126, 126, 0.918);
+    background-color: rgba(197, 197, 197, 0.158);
+    border-color: rgba(158, 158, 158, 0.452);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 1rem;
+}
+#button2:hover
+{
+    color: rgba(153, 153, 153, 0.918);
+    text-decoration: none;
+    background-color: rgba(218, 218, 218, 0.164);
+    border-color: rgba(202, 202, 202, 0.582);
+    transition-duration: 0.4s;
+}
+#code
+{
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+    display: inline-block;
+    color: rgba(123, 108, 148, 0.918);
+    background-color: rgba(43, 37, 68, 0.158);
+    border-color: rgba(146, 134, 158, 0.452);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    padding: 0.6rem 0.9rem;
+    margin-bottom: 1rem;
+    font-family: Consolas;
+    clear: both;
+}
