@@ -1,7 +1,7 @@
 html 
 {
     scroll-behavior: smooth;
-    background-color: #1d1d1d;
+    background-color: #242424;
 }
 a.button
 {
@@ -135,10 +135,14 @@ p.d, h1.c, p.c
 }
 img.b
 {
-    border: #ad0057 1px solid;
+    border: #7a7a7a 1px solid;
     width: 547px;
     height: 300px;
-
+}
+img.b:hover
+{
+    border: #ad0057 1px solid;
+    transition-duration: 2s;
 }
 footer
 {
