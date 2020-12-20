@@ -1,0 +1,50 @@
+<!--============================================
+    |     WHAT ARE YOU LOOKING FOR HERE?       |
+    ============================================-->
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Assistant Tobias</title>
+            <meta name="description" content="Main site of Assistant Tobias, a discord bot.">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/png" href="favicon.png">
+            <script src="https://kit.fontawesome.com/a199f15739.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div id="header">
+                <b>Assistant Tobias</b><div id="b"></div>
+                <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" target="_blank"><div id="button">Invite Bot on Discord</div></a>
+            </div>
+            <div id="a"></div>
+            <div id="content">
+              <div id="intro">
+                <img class="b" src="tobias.png">
+                <h2 class="i">Assistant <span style="color: #21a2c2;">Tobias</span></h2>
+                <a class="b" target="_blank" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot"><i class="fab fa-discord"></i> Invite Bot</a>
+                <a class="b" target="_blank" href="https://top.gg/bot/741352621826375781"><i class="fas fa-globe"></i> Top.GG</a>
+                <p class="b">404 Not found</p>
+            </div>
+            </div>
+            <script>
+                window.onscroll = function() {scrollFunction()};
+                function scrollFunction() {
+                  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                    document.getElementById("header").style.cssText = "font-size: 30pt; padding: 2pt 12pt; text-align: left; vertical-align:middle; box-shadow: 0px 0px 12px #000000;";
+                    document.getElementById("button").style.cssText = "font-size: 0.8rem; margin: 0px; margin-bottom: 6px; vertical-align:middle;";
+                    document.getElementById("b").style.cssText = "display: none;";
+                  } else {
+                    document.getElementById("header").style.cssText = "font-size: 40pt; padding: 20px 10px; box-shadow: 0;";
+                    document.getElementById("button").style.cssText = "font-size: 0.9rem;";
+                    document.getElementById("b").style.cssText = "display: block;";
+                  }
+                }
+            </script>
+            <div id="footer">
+                Bot made by CheryX#2110
+            </div>
+        </body>
+    </html>
+    
