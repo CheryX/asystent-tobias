@@ -1,3 +1,6 @@
+<!--============================================
+    |     WHAT ARE YOU LOOKING FOR HERE?       |
+    ============================================-->
 <!DOCTYPE html>
 <html>
     <head>
@@ -8,72 +11,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="favicon.png">
+        <script src="https://kit.fontawesome.com/a199f15739.js" crossorigin="anonymous"></script>
     </head>
-    <body style="margin: 0px;">
-        <header>
-            <div id="header">
-                <b>Asystent Tobias</b>
-            </div>
-            <a class="button" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" target="_blank"><div id="button">Invite Bot on Discord</div></a>
-            <a class="button" href="#update"><div id="button">Patch Notes</div></a>
-        </header>
-        <article>
-            <h1>Asystent Tobias</h1>
-            <p>Asystent Tobias is a discord bot for your discord server. If you want to invite bot click "Invite Bot" <a href="#header"><i>on top of this page</i></a>.</p>
-            <p>Asystent Tobias can help you make the server alive, by lots of commands.</p>
-            <p>You can check the newest updates <a href="#update"><i>here</i></a>.</li></p>
-            <h2>Command List</h2>
-            <ul>
-                <h3>Info</h3>
-                <li>.help - Shows you list of commands...</li>
-                <li>.invite - Gives you link to invite Tobias.</li>
-                <li>.www - Gives you link to this website.</li> 
-                <li>.user - Display basic information about user.</li>
-            </ul>
-            <ul>
-                <h3>Fun</h3>
-                <li>.rate - Rates everything!</li>
-                <li>.% - Rates your personality.</li>
-                <li>.guess - Simple guess game.</li>
-                <li>.year / .bcyear - <a href="https://cheryx.github.io/centurycalc-pl/"><i>Century Calculator</i></a>.</li>
-                <li>.joke - Random joke.</li>
-                <li>.ai - Question to "AI".</li>
-                <li>.rng - Random numbers.</li>
-            </ul>
-            <ul>
-                <h3>Moderation</h3>
-                <li>.clear - Purge messages.</li>
-                <li>.kick - Kick user.</li>
-                <li>.ban - Ban user.</li>
-                <li>.dg - Check bot health.</li>
-            </ul>
-            <ul>
-                <h3>Text</h3>
-                <li>.poll - Create poll with custom anwsers.</li>
-                <li>.fp - Create poll "YES/NO".</li>
-                <li>.say - Says everything.</li>
-            </ul>
-            <h2>How to invite</h2>
-            <p>It's simple, just click "Invite Bot" button <a href="#header"><i>on top of this page</i></a> or here, if you don't want to give Tobias admin permissions, click "Basic Permissions" button here.</p>
-            <a class="button" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" target="_blank"><div id="button2">Invite Bot</div></a> 
-            <a class="button" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=60416&scope=bot" target="_blank"><div id="button2">Basic Permissions</div></a> 
-        </article>
-        <div id="#update"><header class="b">Updates</header></div>
-        <article class="b">
-            <div id="bs">
-                <a href="blog1.html"><img class="b" src="blog1.png"></a>
-                <div id="opis">
-                    <h1 class="c">Update 1.1</h1>
-                    <p class="c"><span style="color:rgb(22, 187, 50);     font-family: proxima-nova,sans-serif;"><b>UPDATE</b></span> - 09.12.2020</p>
-                </div>
-            </div>
-            <div id="bs">
-                <a href="blog2.html"><img class="b" src="blog2.png"></a>
-                <div id="opis">
-                    <h1 class="c">Update 1.2</h1>
-                    <p class="c"><span style="color:rgb(22, 187, 50);     font-family: proxima-nova,sans-serif;"><b>UPDATE</b></span> - 13.12.2020</p>
-                </div>
-            </div>
-        </article>
+    <body>
+        <div id="header">
+            <b>Assistant Tobias</b><div id="b"></div>
+            <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" target="_blank"><div id="button">Invite Bot on Discord</div></a>
+            <a href="#trailer"><div id="button2">Trailer</div></a>
+        </div>
+        <div id="a"></div>
+        <div id="content">
+          <div id="intro">
+            <img class="b" src="tobias.png">
+            <h2 class="i">Assistant <span style="color: #21a2c2;">Tobias</span></h2>
+            <a class="b" target="_blank" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot"><i class="fab fa-discord"></i> Invite Bot</a>
+            <a class="b" target="_blank" href="https://top.gg/bot/741352621826375781"><i class="fas fa-globe"></i> Top.GG</a>
+          </div>
+          <div id="about">
+            <h3 class="a">TRAILER (soon)</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SxJASsVRRpQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div id="trailer"></div>
+        <script>
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() {
+              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementById("header").style.cssText = "font-size: 30pt; padding: 2pt 12pt; text-align: left; vertical-align:middle; box-shadow: 0px 0px 12px #000000;";
+                document.getElementById("button").style.cssText = "font-size: 0.8rem; margin: 0px; margin-bottom: 6px; vertical-align:middle;";
+                document.getElementById("button2").style.cssText = "font-size: 0.7rem; display: none;";
+                document.getElementById("b").style.cssText = "display: none;";
+              } else {
+                document.getElementById("header").style.cssText = "font-size: 40pt; padding: 20px 10px; box-shadow: 0;";
+                document.getElementById("button").style.cssText = "font-size: 0.9rem;";
+                document.getElementById("button2").style.cssText = "font-size: 0.9rem;";
+                document.getElementById("b").style.cssText = "display: block;";
+              }
+            }
+        </script>
+        <div id="footer">
+            Bot made by CheryX#2110
+        </div>
     </body>
 </html>

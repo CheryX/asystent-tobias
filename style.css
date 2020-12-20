@@ -1,30 +1,31 @@
 html 
 {
     scroll-behavior: smooth;
-    background-color: #1d1d1d;
 }
-a.button
+body
 {
-    color: white;
-    text-decoration: none;
+    margin: 0px;
 }
-header
+#header
 {
-    width: 1%;
-    margin: 0 auto;
-    padding: 3rem 4rem;
-    background-color: #ad0057;
-    background-image: linear-gradient(120deg, #ad0057, #a8008c);
-    text-align: center;
-    font-size: 40pt;
-    color: white;
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #16599b, #169c59);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: table-cell;
-    vertical-align: middle;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 40pt; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    transition: 0.5s;
 }
-#button
+#a
 {
-    margin: 0 auto;
+    margin: 0px 0px 55.4px 0px;
+}
+#button, #button2
+{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 65%;
     display: inline-block;
@@ -38,8 +39,9 @@ header
     font-size: 0.9rem;
     padding: 0.6rem 0.9rem;
     margin-bottom: 1rem;
+    transition: 0.5s;
 }
-#button:hover
+#button:hover, #button2:hover
 {
     color: rgba(255,255,255,0.8);
     text-decoration: none;
@@ -47,153 +49,114 @@ header
     border-color: rgba(255,255,255,0.3);
     transition-duration: 0.4s;
 }
-article
-{
-    width: 50%;
-    margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-decoration: none;
-    margin-top: 75px;
-    margin-bottom: 20px;
+.rainbow {
+    animation: colorRotate 5s linear 0s infinite;
 }
-article.b
-{
-    width: 75%; 
-    margin-top: 40px;
+@keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
 }
-h1
+#footer
 {
-    margin-top: 2rem;
-    margin-bottom: 0.4rem;
-    font-weight: normal;
-    color: #ad0057;
-    font-size: 2.3em;
-    margin: 0.67em 0;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-}
-h1.b
-{
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 12pt; 
+    width: 100%;
+    color: white;
+    padding: 7px 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 12px #000000;
 }
-h2
+#intro
 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: #ad0057;;
-    font-size: 1.5em;
-    margin: 0.67em 0;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    padding-left: 180px;
+    padding-top: 120px;
+    font-weight: 500;
+    height: 600px;
+    background-image: url("intro-bg.jpg");
 }
-h3
+h2.i
 {
-    margin-top: 2rem;
-    margin-bottom: rem;
-    font-weight: normal;
-    color: #ad0057;
-    font-size: 1.2em;
-    margin: 0.67em 0;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    color: #16518b;
+    margin-bottom: 12px;
 }
-header.b
+a.b
 {
-    padding: 1rem 4rem;
-}
-a
-{
-    color: #64405f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    color: #fff;
+    background: #1bb1dc;
     text-decoration: none;
-}
-a:hover
-{
-    text-decoration: underline;
-    transition-duration: 0.6s;
-    color: rgb(100, 0, 87);
-}
-p, ul
-{
-    color: #d8cbd6;
-}
-p.c
-{
-    color: #383838;
-    font-size: 1rem;
-}
-#bs
-{
-    margin-left: 20px;
-    float: left;
-    margin-bottom: 30px;
-}
-p.d, h1.c, p.c
-{
-    margin: 0px;
-    text-align: center;
 }
 img.b
 {
-    border: #303030 1px solid;
-    width: 547px;
-    height: 300px;
+    float: right;
+    width: 40%;
+    margin-right: 200px;
+    margin-bottom:
+    box-shadow: 0px 0px 12px #000000;
 }
-img.b:hover
+#about
 {
-    border: #ad0057 1px solid;
-    transition-duration: 2s;
+    background: #f5f8fd;
+    padding: 60px 0 40px 0;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
 }
-footer
+h3.a
 {
-    width: 1%;
-    padding: 10px;
-    background-color: #ad0057;
-    background-image: linear-gradient(120deg, #ad0057, #a8008c);
+    font-size: 36px;
+    color: #413e66;
     text-align: center;
-    font-size: 12pt;
-    color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: table-cell;
-    vertical-align: middle;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 0 20px 0;
+    padding: 0;
 }
-#button2
+p.a
 {
-    clear: both;
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #535074;
+    width: 50%;
+    padding: 0;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+iframe
+{
+    display: block;
     margin: 0 auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    opacity: 100%;
-    display: inline-block;
-    color: rgba(126, 126, 126, 0.918);
-    background-color: rgba(197, 197, 197, 0.158);
-    border-color: rgba(158, 158, 158, 0.452);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 0.3rem;
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-    font-size: 0.9rem;
-    padding: 0.6rem 0.9rem;
-    margin-bottom: 1rem;
-}
-#button2:hover
-{
-    color: rgba(153, 153, 153, 0.918);
-    text-decoration: none;
-    background-color: rgba(218, 218, 218, 0.164);
-    border-color: rgba(202, 202, 202, 0.582);
-    transition-duration: 0.4s;
-}
-header.c
-{
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-}
-#opis
-{
-    margin-left: 12px;
-}
-html.b
-{
-    background-size: 2000px;
 }
