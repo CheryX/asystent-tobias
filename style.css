@@ -196,6 +196,95 @@ p.a
     transition: 0.5s;
     box-shadow: 0px 0px 12px #000000;
 }
+@media (max-height: 900px) {
+    #footer
+    {  
+        margin-top: 300px;
+    }
+    #footer.b
+    {  
+        margin-top: 800px;
+    }
+}
+@media (min-height: 900px) {
+    #a
+    {
+    margin: 0px 0px 55.4px 0px;
+    }
+    .rainbow {
+        animation: colorRotate 5s linear 0s infinite;
+    }
+    @keyframes colorRotate {
+        from {
+        color: #6666ff;
+        }
+        10% {
+        color: #0099ff;
+        }
+        50% {
+        color: #00ff00;
+        }
+        75% {
+        color: #ff3399;
+        }
+        100% {
+        color: #6666ff;
+        }
+    }
+    #intro
+    {
+        padding-left: 80px;
+        padding-top: 120px;
+        font-weight: 500;
+        height: 600px;
+        background-image: url("intro-bg.jpg");
+    }
+    #intro.b
+    {
+        margin-bottom: 320px;
+    }
+    h2.i
+    {
+        font-family: "Montserrat", sans-serif;
+        font-size: 3rem;
+        color: #16518b;
+        margin-bottom: 12px;
+    }
+    a.b
+    {
+        font-family: "Montserrat", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        display: inline-block;
+        padding: 10px 32px;
+        border-radius: 4px;
+        color: #fff;
+        background: #1bb1dc;
+        text-decoration: none;
+    }
+    img.b
+    {
+        float: right;
+        width: 40%;
+        margin-right: 200px;
+        margin-top: 40px;
+    }
+    #footer
+    {
+        background-color: #159957;
+        background-image: linear-gradient(120deg, #155799, #159957);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-size: 12pt; 
+        width: 100%;
+        color: white;
+        padding: 7px 0px;
+        transition: 0.5s;
+        box-shadow: 0px 0px 12px #000000;
+    }
+}
 @media (max-width: 900px) {
     #footer
     {  
