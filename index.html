@@ -1,65 +1,344 @@
-<!--============================================
-    |     WHAT ARE YOU LOOKING FOR HERE?       |
-    ============================================-->
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Assistant Tobias</title>
-        <meta name="description" content="Main site of Assistant Tobias, a Discord bot.">
-        <meta name="keywords" content="Discord, Discord Bot, Bot, Tobias, Assistant, assistant, tobias, bot, discord bot, python, discord.py, top.gg">
-        <meta name="author" content="CheryX">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="image/png" href="favicon.png">
-        <script src="https://kit.fontawesome.com/a199f15739.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div id="header">
-            <b>Assistant Tobias</b><div id="b"></div>
-            <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" target="_blank"><div id="button">Invite Bot on Discord</div></a>
-            <a href="#trailer"><div id="button2">Trailer</div></a>
-        </div>
-        <div id="a"></div>
-        <div id="content">
-          <div id="intro">
-            <img class="b" src="tobias.png">
-            <h2 class="i">Assistant <span style="color: #21a2c2;">Tobias</span></h2>
-            <a class="b" target="_blank" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot"><i class="fab fa-discord"></i> Invite Bot</a>
-            <a class="b" target="_blank" href="https://top.gg/bot/741352621826375781"><i class="fas fa-globe"></i> Top.GG</a>
-            <a class="b" href="https://cheryx.github.io/asystent-tobias/list.html"><i class="fas fa-list"></i> Command List</a>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Assistant Tobias</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Rapid - v3.0.0
+  * Template URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+    <div class="container d-flex justify-content-end">
+      <div class="social-links">
+        <a href="https://www.youtube.com/channel/UCBGZMXsnwjwvyyMVqXy3Itw" class="youtube"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://github.com/CheryX" class="github"><i class="fa fa-github-square"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Assistant Tobias</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#services">Why Us</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav><!-- .main-nav-->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center" data-aos="fade-up">
+        <div class="col-lg-6 intro-info order-lg-first order-last" data-aos="zoom-in" data-aos-delay="100">
+          <h2>Assistant <span>Tobias</span></h2>
+          <div>
+            <a href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot" class="btn-get-started scrollto">Invite Bot</a>
           </div>
-          <div id="about">
-            <h3 class="a">TRAILER</h3>
-            <iframe src="https://www.youtube.com/embed/SxJASsVRRpR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <div id="trailer"></div>
+        </div>
+
+        <div class="col-lg-6 intro-img order-lg-last order-first" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/intro-img.png" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Services</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
+              <h4 class="title"><a href="">Low ping</a></h4>
+              <p class="description">Assistant Tobias has very fast time of response! So you don't have to wait anything to have fun!</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <div class="icon" style="background: #fff0da;"><i class="ion-ios-game-controller-b-outline" style="color: #e98e06;"></i></div>
+              <h4 class="title"><a href="">Keep growing</a></h4>
+              <p class="description">Assistant Tobias is a fresh project, so it is keep growing, so that you are satisfied with the product.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="box">
+              <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
+              <h4 class="title"><a href="">Lots of commands</a></h4>
+              <p class="description">Assistant Tobias has a very long list of commands, that will keep you entertained for a very long time.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box">
+              <div class="icon" style="background: #eafde7;"><i class="ion-ios-download-outline" style="color:#41cf2e;"></i></div>
+              <h4 class="title"><a href="">Everything online!</a></h4>
+              <p class="description">Discord bots don't have to be downloaded to be used. Inviting a bot is a very simple process.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class=" box">
+            <div class="icon" style="background: #e1eeff;"><i class="ion-ios-chatbubble-outline" style="color: #2282ff;"></i></div>
+            <h4 class="title"><a href="">Everything in English.</a></h4>
+            <p class="description">Assistant Tobias was recently translated to English. So everyone can use product.</p>
           </div>
         </div>
-        <script>
-            window.onscroll = function() {scrollFunction()};
-            function scrollFunction() {
-              if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-                document.getElementById("header").style.cssText = "font-size: 30pt; padding: 2pt 12pt; text-align: left; vertical-align:middle; box-shadow: 0px 0px 12px #000000;";
-                document.getElementById("button").style.cssText = "font-size: 0.8rem; margin: 0px; margin-bottom: 6px; vertical-align:middle;";
-                document.getElementById("button2").style.cssText = "font-size: 0.7rem; display: none;";
-                document.getElementById("b").style.cssText = "display: none;";
-              } else {
-                document.getElementById("header").style.cssText = "font-size: 40pt; padding: 20px 10px; box-shadow: 0;";
-                document.getElementById("button").style.cssText = "font-size: 0.9rem;";
-                document.getElementById("button2").style.cssText = "font-size: 0.9rem;";
-                document.getElementById("b").style.cssText = "display: block;";
-              }
-            }
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
-        new Crate({
-            server: '740228240286679101', // Asystent Tobias Support
-            channel: '740228240286679104' // #💬・chat
-        })
-        </script>
-        <div id="footer">
-            Bot made by CheryX#2110
+        <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="box">
+            <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
+            <h4 class="title"><a href="">Always online</a></h4>
+            <p class="description">Assistant Tobias is a 24/7 bot. So you can use it anytime, whenever you want.</p>
+          </div>
         </div>
-    </body>
+
+      </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Why choose us?</h3>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-6" style="margin: auto;">
+            <div class="why-us-content" style="margin: auto;">
+              <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
+                <i class="fa fa-cogs" style="color: #f058dc;"></i>
+                <h4>Updates</h4>
+                <p>We are still updating Assistant Tobias, we care about optimization and compatibility.</p>
+              </div>
+
+              <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
+                <i class="fa fa-handshake-o" style="color: #ffb774;"></i>
+                <h4>Support</h4>
+                <p>If you need support. You can ask for help on support server.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Call To Action Section ======= -->
+    <section id="call-to-action" class="call-to-action">
+      <div class="container" data-aos="zoom-out">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3 class="cta-title">Invite Bot</h3>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://discord.com/oauth2/authorize?client_id=741352621826375781&permissions=537193543&scope=bot">Invite Bot</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!--  End Call To Action Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Team</h3>
+          <p>Assistant Tobias is made by only one person.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400" style="margin: auto;">
+            <div class="member">
+              <img src="assets/img/team-1.png" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>CheryX</h4>
+                  <span>CheryX#1189</span>
+                  <div class="social">
+                    <a href="https://www.youtube.com/channel/UCBGZMXsnwjwvyyMVqXy3Itw" class="youtube"><i class="fa fa-youtube-play"></i></a>
+                    <a href="https://github.com/CheryX" class="github"><i class="fa fa-github-square"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg wow fadeInUp">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>Pricing</h3>
+          <p>Discord Bots are usually free. So...</p>
+        </header>
+
+        <div class="row flex-items-xs-middle flex-items-xs-center">
+
+          <!-- Basic Plan  -->
+          <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100" style="margin: auto;">
+            <div class="card">
+              <div class="card-header">
+                <h3><span class="currency">$</span>0<span class="period">/month</span></h3>
+              </div>
+              <div class="card-block">
+                <h4 class="card-title">
+                  Free
+                </h4>
+                <ul class="list-group">
+                  <li class="list-group-item">24/7 Online</li>
+                </ul>
+                <a href="#" class="btn">Get</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End Pricing Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">
+          <h3>Frequently Asked Questions</h3>
+        </header>
+
+        <ul id="faq-list" data-aos="fade-up" data-aos-delay="100">
+          <li>
+            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Is Assistant Tobias free? <i class="ion-android-remove"></i></a>
+            <div id="faq1" class="collapse" data-bs-parent="#faq-list">
+              <p>
+                Yes! Assistant Tobias is 100% free.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Is bot always 24/7? <i class="ion-android-remove"></i></a>
+            <div id="faq2" class="collapse" data-bs-parent="#faq-list">
+              <p>
+                Bot is almost always 24/7. Sometimes it is offline for a minute because of a patch.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">How to invite Assistant Tobias? <i class="ion-android-remove"></i></a>
+            <div id="faq3" class="collapse" data-bs-parent="#faq-list">
+              <p>
+                Click "Invite Bot" on top of the page, next log in to discord. And choose your server. To invite bot to server you must have Manage Server permissions. You can always ask admin!
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End F.A.Q Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="section-bg">
+    <div class="container">
+      <div class="copyright">
+        
+      </div>
+      <div class="credits">
+        <!--
+        All the links in the footer should remain intact.
+        You can delete the links only if you purchased the pro version.
+        Licensing information: https://bootstrapmade.com/license/
+        Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
+      -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
