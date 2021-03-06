@@ -149,3 +149,7 @@ tr:nth-child(even)
 {
     background-color: #00000062;
 }
+span.f
+{
+    font-size: 0.8vw;
+}
