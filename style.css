@@ -1,0 +1,155 @@
+body
+{
+    margin: 0;
+    background-color: #1e1e1e;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+header
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 2.5vw;
+    font-family: Montserrat, sans-serif;
+    color: #c8c2ff;
+    padding: 1.5% 0 1.5% 7%;
+    background-color: #28262e;
+}
+img.a
+{
+    margin-right: 1vw;
+    border-radius: 50%;
+    box-shadow: 0 0 1vw #43434e;
+    transition: box-shadow 2s;
+    width: 4vw;
+}
+img.a:hover
+{
+    box-shadow: 0 0 2vw #616170;
+}
+span.a
+{
+    margin-left: auto;
+}
+span.b
+{
+    margin-right: 6%;
+}
+#button
+{
+    padding: 0.9vw 1.9vw;
+    border-radius: 0.5vw;
+    margin: 0.2%;
+    font-size: 1vw;
+    transition: background-color 0.2s;
+    border: 0.1vw solid #ffffff;
+    width: 8vw;
+    text-align: center;
+}
+#button:hover
+{
+    background-color: #ffffff;
+    color: #28262e;
+    cursor: pointer;
+}
+#invite
+{
+    background-color: #424270;
+    padding: 1vw 1.8vw 1vw 1.8vw;
+    border-radius: 0.5vw;
+    margin: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+    width: 7.5vw;
+    text-align: center;
+    transition: background-color 0.2s !important;
+}
+#invite:hover 
+{
+    background-color: #4200C8;
+}
+span.c
+{
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
+}
+.css-transitions-only-after-page-load * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
+article
+{
+    margin: 5% 0 0 10%;
+}
+#left_article
+{
+    font-family: Montserrat, sans-serif;
+    font-size: 4vw;
+    float: left;
+}
+span.e
+{
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+span.d
+{
+    background: -webkit-linear-gradient(#afb0ff, #8678c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#list
+{
+    margin: 0 0 0 11vw;
+    float: left;
+    background-color: #424270;
+    border: 0.1vw solid #8678c5;
+    border-radius: 2vw;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    padding: 1.2vw;
+    font-size: 3vw;
+    transition-duration: background-color 1s;
+}
+#stat
+{
+    color: white;
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    text-align: center;
+    background-color: #424270;
+    border: 0.1vw solid #8678c5;
+    border-radius: 1vw;
+}
+table
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+td, th
+{
+    padding: 0.2vw;
+    text-align: left;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 0.2vw;
+    font-size: 1vw;
+}
+tr:nth-child(even)
+{
+    background-color: #00000062;
+}
+span.f
+{
+    font-size: 0.8vw;
+}
