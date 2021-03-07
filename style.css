@@ -87,7 +87,7 @@ span.c
 }
 article
 {
-    margin: 5% 0 0 10%;
+    margin: 5% 0 2.4vw 10%;
 }
 #left_article
 {
@@ -109,7 +109,7 @@ span.d
 }
 #list
 {
-    margin: 0 0 0 11vw;
+    margin: 0 0 2.4vw 11vw;
     float: left;
     background-color: #424270;
     border: 0.1vw solid #8678c5;
@@ -118,18 +118,19 @@ span.d
     font-family: Montserrat, sans-serif;
     padding: 1.2vw;
     font-size: 3vw;
-    transition: background-color 1s !important;
+    transition: background-color 1s;
 }
 #stat
 {
     color: white;
     font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
-    float: left;
     text-align: center;
-    background-color: #424270;
-    border: 0.1vw solid #8678c5;
-    border-radius: 1vw;
+    background-color: #181818;
+    border-radius: 0.5vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    padding-left: 3vw;
 }
 table
 {
@@ -152,4 +153,72 @@ tr:nth-child(even)
 span.f
 {
     font-size: 0.8vw;
+}
+#features
+{
+    background-color: #34343b;
+    padding: 3vw 0 0 0;
+    text-align: center;
+    display: grid;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+span.g
+{
+    background: -webkit-linear-gradient(#ffffff, #bdbdbd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 3%;
+    font-family: Montserrat, sans-serif;
+    font-size: 3vw;
+}
+#fbox
+{
+    background-color: #424270;
+    border-radius: 1vw;
+    text-align: center;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 2vw;
+    padding: 2vw 1vw;
+    margin: auto;
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 5vw;
+}
+#list2
+{
+    padding-top: 2vw;
+    background-color: #34343b;
+}
+span.h
+{
+    background-color: #5e548a;
+    border-radius: 50%;
+    padding: 1vw;
+}
+span.i
+{
+    background-color: #5e548a;
+    padding: 1vw 1.4vw;
+    border-radius: 50%;
+}
+span.j
+{
+    font-size: 1.2vw;
+    color: #7a7a8b;
+}
+#stats
+{
+    float: left;
+    margin-right: 3vw;
+}
+#stat
+{
+    margin-left: 5vw;
+    margin-top: 5vw;
+    position: absolute;
 }
