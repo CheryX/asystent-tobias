@@ -118,7 +118,7 @@ span.d
     font-family: Montserrat, sans-serif;
     padding: 1.2vw;
     font-size: 3vw;
-    transition: background-color 1s;
+    transition: background-color 1s !important;
 }
 #stat
 {
